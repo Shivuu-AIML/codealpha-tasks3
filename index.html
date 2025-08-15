@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Sisodiya | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <div class="container nav-container">
+            <div class="logo">Shivam Sisodiya <span></span></div>
+            <nav id="navMenu">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero" class="hero container fade-in ">
+        <div class="hero-text">
+            <h1>Hi, I'm <span>Shivam Sisodiya</span></h1>
+            <p class="subtitle">Frontend Developer | Creative Coder | Problem Solver</p>
+            <p class="description">I create functional, beautiful, and responsive websites using modern web technologies. Passionate about building things that make an impact.</p>
+            <button class="btn" onclick="scrollToSection('projects')">View My Work</button>
+        </div>
+        <div class="hero-image">
+            <img src="person1.jpg" alt="Developer Illustration">
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about container fade-in ">
+        <h2 class="section-title">About Me</h2>
+        <p>I am a frontend developer with a strong focus on creating clean and efficient code. I work with HTML, CSS, JavaScript, and frameworks like React to deliver user-friendly and responsive web applications.</p>
+        <div class="tech-stack">
+            <div class="tech-item">HTML</div>
+            <div class="tech-item">CSS</div>
+            <div class="tech-item">JavaScript</div>
+            <div class="tech-item">React</div>
+            <div class="tech-item">Tailwind</div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="projects container fade-in ">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+            <div class="project-card fade-in ">
+                <img src="person1.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A sleek personal portfolio built with HTML, CSS, and JavaScript.</p>
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="SPOTIFY.jpeg" alt="Project 2">
+                <div class="project-info">
+                    <h3>Spotify Clone </h3>
+                    <p>A FRONTEND CLONE OF SPOTIFY WITH HTML AND CSS </p>
+                    <div class="project-links">
+                        <a href="https://spotify-clonee-shivammm.netlify.app/">Live Demo</a>
+                        <a href="https://github.com/Shivuu-AIML/Spotify-clonee">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="travels.png" alt="Project 3">
+                <div class="project-info">
+                    <h3>Travels Buisness Website</h3>
+                    <p>A Website which provides functionallity of whatsapp messages and fullfill the need of buinesss and helps to grow as a tours and travells buisness  </p>
+                    <div class="project-links">
+                        <a href="https://saini-tourandtravels.netlify.app/">Live Demo</a>
+                        <a href="https://github.com/Shivuu-AIML/Saini-tour-and-travels">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact container fade-in ">
+        <h2 class="section-title">Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://github.com/Shivuu-AIML">GitHub</a>
+            <a href="https://www.linkedin.com/in/shivam-sisodiya-393778315/">LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <p>© 2025 Shivam Sisodiya — All Rights Reserved</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
